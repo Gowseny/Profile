@@ -1,0 +1,11 @@
+.imageLinks{
+border: 3px rgb(241, 236, 245) solid;
+    border-radius: 50%;
+    height: 9%;
+    width: 11%;
+    margin: 15px 15px 15px 15px;
+}
+
+#pageLinks{
+    margin-top: 100%;
+}
