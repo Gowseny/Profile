@@ -11,6 +11,8 @@
 /* Dialogue.css */
 
 .dialogue {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
     display: flex;
     flex-direction: row;
     font-size: 18px;
