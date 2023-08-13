@@ -1,0 +1,32 @@
+.imageLinks {
+  border: 2px rgb(241, 236, 245) solid;
+  border-radius: 50%;
+  height: 16%;
+  width: 10%;
+  margin: 15px 15px 15px 15px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+#imageLinks {
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+}
+
+
+#App {
+    border: groove 7px #3702708f;
+    box-shadow: 1px 0px 21px 9px rgb(117, 68, 166);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+}
+
+
+#projectImage{
+  background-color: rgba(2, 2, 22, 0.966);
+}

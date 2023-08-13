@@ -1,8 +1,10 @@
 import React from 'react';
-import '../links.css';
-import ToHome from '../navigateHome';
+import '../link/links.css';
+import ToHome from '../home/navigateHome';
+import '../projects/projects.jsx'
 import './projects.css'
-
+import '../../App.css'
+import '../link/links.css'
 const RedirectToPacMan = () => {
   if (typeof window !== "undefined") {
     window.open("https://gowsenys-my-pacman.netlify.app", "_blank");
@@ -27,9 +29,32 @@ const MyProjects =() => {
 
     return (
       <>
-        <div className="ProjectsHome">
+        <div>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+        </div>
+
+        <div id="App">
           <div id="MyName">Gowseny D'Souza</div>
           <div id="imageLinks">
+            <img
+              className="imageLinks"
+              alt="Home"
+              onClick={ToHome}
+              src={require("../../images/home.png")}
+            />
+
             <img
               className="imageLinks"
               onClick={RedirectToPacMan}
@@ -38,23 +63,16 @@ const MyProjects =() => {
 
             <img
               className="imageLinks"
-              src={require("../../images/home.png")}
-              alt="Home"
-              onClick={ToHome}
-            />
-
-            <img
-              className="imageLinks"
-              src={require("../../images/table.png")}
               alt="Home"
               onClick={RedirectToSortable}
+              src={require("../../images/search.png")}
             />
 
             <img
               className="imageLinks"
-              src={require("../../images/forum.png")}
               alt="Home"
               onClick={RedirectToForum}
+              src={require("../../images/forum.png")}
             />
           </div>
         </div>
